@@ -1,0 +1,9 @@
+uuid: 35d0e315-6782-458b-a11e-4a9df660f815
+langcode: en
+status: true
+dependencies: {  }
+id: event_paragraph
+label: 'Event Paragraph'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

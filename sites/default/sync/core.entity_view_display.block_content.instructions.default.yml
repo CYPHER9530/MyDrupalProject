@@ -1,0 +1,39 @@
+uuid: c691db0c-fa66-4fc2-a39d-b7fc0b614f2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.instructions
+    - field.field.block_content.instructions.body
+    - field.field.block_content.instructions.field_instructions
+    - field.field.block_content.instructions.field_moderator
+  module:
+    - text
+id: block_content.instructions.default
+targetEntityType: block_content
+bundle: instructions
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_instructions:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_moderator:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

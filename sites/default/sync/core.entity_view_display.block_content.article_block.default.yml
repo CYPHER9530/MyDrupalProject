@@ -1,0 +1,40 @@
+uuid: a7cbbe69-9164-4f64-b999-010656868d04
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.article_block
+    - field.field.block_content.article_block.body
+    - field.field.block_content.article_block.field_phone_field
+    - field.field.block_content.article_block.field_textfield
+  module:
+    - text
+id: block_content.article_block.default
+targetEntityType: block_content
+bundle: article_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_phone_field:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_textfield:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

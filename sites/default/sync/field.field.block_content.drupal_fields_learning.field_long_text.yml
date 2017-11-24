@@ -1,0 +1,21 @@
+uuid: ee56dd04-e533-4539-a68b-2578386d015e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_long_text
+id: block_content.drupal_fields_learning.field_long_text
+field_name: field_long_text
+entity_type: block_content
+bundle: drupal_fields_learning
+label: 'Long Text'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "Ошибка 404 или Not Found («не найдено») — стандартный код ответа HTTP о том, что клиент был в состоянии общаться с сервером, но сервер не может найти данные согласно запросу. Ошибку 404 не следует путать с ошибкой «Сервер не найден» или иными ошибками, указывающими на ограничение доступа к серверу. Ошибка 404 означает, что запрашиваемый ресурс может быть доступен в будущем, что однако не гарантирует наличие прежнего содержания.\r\n\r\nПользователи наиболее часто сталкиваются с ошибкой 404 при посещении т. н. битых или мёртвых ссылок, что делает, таким образом, ошибку 404 одной из наиболее узнаваемых ошибок в сети Интернет"
+default_value_callback: ''
+settings: {  }
+field_type: string_long

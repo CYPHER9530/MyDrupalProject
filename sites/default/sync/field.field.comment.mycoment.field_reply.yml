@@ -1,0 +1,21 @@
+uuid: ee3bec9e-be59-41eb-9093-750d3cd0967f
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.mycoment
+    - field.storage.comment.field_reply
+id: comment.mycoment.field_reply
+field_name: field_reply
+entity_type: comment
+bundle: mycoment
+label: Reply
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

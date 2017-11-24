@@ -1,0 +1,21 @@
+uuid: a47b1d6c-982a-4ae4-835e-22972c75eb84
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback1
+    - field.storage.contact_message.field_phone1
+  module:
+    - telephone
+id: contact_message.feedback1.field_phone1
+field_name: field_phone1
+entity_type: contact_message
+bundle: feedback1
+label: Phone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

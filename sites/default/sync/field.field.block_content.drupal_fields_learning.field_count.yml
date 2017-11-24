@@ -1,0 +1,23 @@
+uuid: fd19b970-d305-4717-85e5-3d0a0eed494b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_count
+  module:
+    - options
+id: block_content.drupal_fields_learning.field_count
+field_name: field_count
+entity_type: block_content
+bundle: drupal_fields_learning
+label: Count
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 2
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

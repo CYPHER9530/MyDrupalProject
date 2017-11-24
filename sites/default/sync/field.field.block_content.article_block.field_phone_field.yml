@@ -1,0 +1,23 @@
+uuid: eb6d5dbd-f574-4d33-b284-74d86bee5d61
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.article_block
+    - field.storage.block_content.field_phone_field
+id: block_content.article_block.field_phone_field
+field_name: field_phone_field
+entity_type: block_content
+bundle: article_block
+label: 'Phone Field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: '+380'
+  suffix: ''
+field_type: integer

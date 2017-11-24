@@ -1,0 +1,20 @@
+uuid: de5b4ebf-925d-4ad4-b60d-b6dd860de4cf
+langcode: en
+status: true
+dependencies:
+  theme:
+    - boots_sub
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: boots_sub_page_title
+theme: boots_sub
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

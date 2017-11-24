@@ -1,0 +1,25 @@
+uuid: a00e3481-e16e-46e0-97d7-add300ceeee2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:address:31e32a39-4f38-4535-8b45-79c299556436'
+  module:
+    - block_content
+  theme:
+    - bartik_sub
+id: bartik_sub_addressblock
+theme: bartik_sub
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:31e32a39-4f38-4535-8b45-79c299556436'
+settings:
+  id: 'block_content:31e32a39-4f38-4535-8b45-79c299556436'
+  label: 'Address Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

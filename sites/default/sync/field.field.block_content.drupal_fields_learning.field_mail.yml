@@ -1,0 +1,21 @@
+uuid: 53dbb684-67eb-44ee-a1ff-def5f71757df
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_mail
+id: block_content.drupal_fields_learning.field_mail
+field_name: field_mail
+entity_type: block_content
+bundle: drupal_fields_learning
+label: Mail
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ustasalexus9530@gmail.com
+default_value_callback: ''
+settings: {  }
+field_type: email

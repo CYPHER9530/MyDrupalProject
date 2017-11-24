@@ -1,0 +1,33 @@
+uuid: e7896e2a-63f8-4220-b3b8-5571e77c8c54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_user
+    - taxonomy.vocabulary.widget
+id: taxonomy_term.widget.field_user
+field_name: field_user
+entity_type: taxonomy_term
+bundle: widget
+label: User
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: role
+      role:
+        administrator: administrator
+        webmaster: webmaster
+        moderator: moderator
+        editor: editor
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

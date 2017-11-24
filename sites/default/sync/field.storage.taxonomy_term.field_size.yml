@@ -1,0 +1,30 @@
+uuid: d5632fd8-4999-4c0d-a78d-3d4d37545376
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+id: taxonomy_term.field_size
+field_name: field_size
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Small
+      label: Small
+    -
+      value: Medium
+      label: Medium
+    -
+      value: Large
+      label: Large
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

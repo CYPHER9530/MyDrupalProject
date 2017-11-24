@@ -1,0 +1,34 @@
+uuid: 8e4f2577-09de-4ae3-b1ac-29b105cd770c
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:drupal_fields_learning:b90667be-0fa9-43c0-b2cb-e755b1b867f6'
+  module:
+    - block_content
+    - user
+  theme:
+    - stark
+id: stark_drupalfieldslearning
+theme: stark
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:b90667be-0fa9-43c0-b2cb-e755b1b867f6'
+settings:
+  id: 'block_content:b90667be-0fa9-43c0-b2cb-e755b1b867f6'
+  label: 'Drupal Fields Learning'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

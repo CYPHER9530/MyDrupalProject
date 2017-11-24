@@ -1,0 +1,8 @@
+uuid: 7308d186-44da-4bd5-8437-a80b394da8bd
+langcode: en
+status: true
+dependencies: {  }
+id: pdf_file
+label: 'PDF File'
+revision: 0
+description: 'formatted, long, summary'

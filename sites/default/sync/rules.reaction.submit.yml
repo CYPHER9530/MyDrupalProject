@@ -1,0 +1,15 @@
+uuid: 37b8331e-0747-4d18-b3bc-1da260a2e34d
+langcode: en
+status: true
+dependencies: {  }
+id: submit
+label: Submit
+events:
+  -
+    event_name: 'rules_entity_insert:comment'
+description: ''
+tags:
+  - Publishing
+config_version: '3'
+expression:
+  id: rules_rule

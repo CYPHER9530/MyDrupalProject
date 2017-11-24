@@ -1,0 +1,22 @@
+uuid: dcbc7856-aafd-4fd6-9a45-27821be3d4f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.drupal_fields_learning.body
+field_name: body
+entity_type: block_content
+bundle: drupal_fields_learning
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

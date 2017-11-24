@@ -1,0 +1,23 @@
+uuid: 86992370-2abe-4a07-94be-a33b67373307
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_size
+    - taxonomy.vocabulary.widget
+  module:
+    - options
+id: taxonomy_term.widget.field_size
+field_name: field_size
+entity_type: taxonomy_term
+bundle: widget
+label: Size
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Medium
+default_value_callback: ''
+settings: {  }
+field_type: list_string

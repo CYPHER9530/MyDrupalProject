@@ -1,0 +1,23 @@
+uuid: 0023cd9d-1ef5-437a-bba0-030c7ef7ac01
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.question_form
+  module:
+    - contact_block
+  theme:
+    - bartik_sub
+id: bartik_sub_contactblock_2
+theme: bartik_sub
+region: sidebar_first
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: visible
+  contact_form: question_form
+visibility: {  }

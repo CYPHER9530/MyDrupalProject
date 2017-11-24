@@ -1,0 +1,8 @@
+uuid: d5a1f599-229e-44eb-a524-6425474f7b0a
+langcode: en
+status: true
+dependencies: {  }
+id: location
+label: Location
+revision: 0
+description: ''

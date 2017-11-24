@@ -1,0 +1,51 @@
+uuid: 2f281e3f-0fb4-40d6-bb7c-ea602d16fd72
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.instructions
+    - field.field.block_content.instructions.body
+    - field.field.block_content.instructions.field_instructions
+    - field.field.block_content.instructions.field_moderator
+  module:
+    - text
+id: block_content.instructions.default
+targetEntityType: block_content
+bundle: instructions
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_instructions:
+    weight: 27
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_moderator:
+    weight: 28
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

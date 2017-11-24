@@ -1,0 +1,15 @@
+uuid: d87882db-bdaf-4e97-8f30-601fea85bcca
+langcode: en
+status: true
+dependencies: {  }
+id: webmaster
+label: Webmaster
+weight: 3
+is_admin: false
+permissions:
+  - 'administer content types'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'delete all revisions'
+  - 'revert all revisions'
+  - 'view all revisions'

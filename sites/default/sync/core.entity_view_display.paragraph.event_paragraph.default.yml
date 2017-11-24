@@ -1,0 +1,68 @@
+uuid: 5d91cf03-defa-469e-bdb0-3ccb8db516fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.event_paragraph.field_event_date
+    - field.field.paragraph.event_paragraph.field_event_description
+    - field.field.paragraph.event_paragraph.field_event_place
+    - paragraphs.paragraphs_type.event_paragraph
+  module:
+    - datetime
+    - geolocation
+id: paragraph.event_paragraph.default
+targetEntityType: paragraph
+bundle: event_paragraph
+mode: default
+content:
+  field_event_date:
+    weight: 0
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_event_description:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_event_place:
+    weight: 2
+    label: above
+    settings:
+      title: ''
+      set_marker: '1'
+      common_map: ''
+      info_text: ''
+      use_overridden_map_settings: 0
+      google_map_settings:
+        type: ROADMAP
+        zoom: '10'
+        minZoom: 0
+        maxZoom: 18
+        rotateControl: 0
+        mapTypeControl: 1
+        streetViewControl: 1
+        zoomControl: 1
+        fullscreenControl: 0
+        scrollwheel: 1
+        disableDoubleClickZoom: 0
+        draggable: 1
+        height: 400px
+        width: 100%
+        info_auto_display: 1
+        marker_icon_path: ''
+        disableAutoPan: 1
+        style: ''
+        preferScrollingToZooming: 0
+        gestureHandling: auto
+    third_party_settings: {  }
+    type: geolocation_map
+    region: content
+hidden: {  }

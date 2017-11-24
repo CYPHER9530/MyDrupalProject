@@ -1,0 +1,21 @@
+uuid: 66a6f653-c173-4f3f-9f04-2cb092b60c61
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 5
+is_admin: null
+permissions:
+  - 'cancel account'
+  - 'change own username'
+  - 'create blog content'
+  - 'create page content'
+  - 'delete any blog content'
+  - 'delete any page content'
+  - 'delete own blog content'
+  - 'delete own page content'
+  - 'edit any blog content'
+  - 'edit any page content'
+  - 'edit own blog content'
+  - 'edit own page content'

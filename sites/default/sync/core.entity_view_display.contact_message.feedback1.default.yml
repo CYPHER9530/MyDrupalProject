@@ -1,0 +1,30 @@
+uuid: 053201dd-bb1f-460f-94b3-d1a5268f55a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback1
+    - field.field.contact_message.feedback1.field_phone1
+  module:
+    - telephone
+id: contact_message.feedback1.default
+targetEntityType: contact_message
+bundle: feedback1
+mode: default
+content:
+  field_phone1:
+    weight: 1
+    label: above
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  message:
+    type: basic_string
+    weight: 0
+    label: above
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

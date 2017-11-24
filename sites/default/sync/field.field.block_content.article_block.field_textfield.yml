@@ -1,0 +1,24 @@
+uuid: 256657a2-2eea-45b5-bcc9-a2209ab477db
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.article_block
+    - field.storage.block_content.field_textfield
+  module:
+    - text
+id: block_content.article_block.field_textfield
+field_name: field_textfield
+entity_type: block_content
+bundle: article_block
+label: TextField
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Wright here..'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

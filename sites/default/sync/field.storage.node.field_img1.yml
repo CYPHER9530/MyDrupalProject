@@ -1,0 +1,30 @@
+uuid: bdefc104-fe6a-48ed-9e50-ba2e6b960633
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_img1
+field_name: field_img1
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 2bc71fbe-2b48-4296-b1f8-ecf82ac024ee
+    alt: 'File Not Found'
+    title: News
+    width: 960
+    height: 343
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

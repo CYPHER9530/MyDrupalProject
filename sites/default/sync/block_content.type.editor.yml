@@ -1,0 +1,8 @@
+uuid: f8620e16-20fd-4c94-a971-43ae4e1227e3
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+revision: 0
+description: ''

@@ -1,0 +1,22 @@
+uuid: 919835bc-3920-455a-a6ce-ab798d883c79
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - boots_sub
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: boots_sub_help
+theme: boots_sub
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,43 @@
+uuid: 6d226806-8a8f-439e-8767-71603a65b357
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.question_form
+    - field.field.contact_message.question_form.field_mail
+    - field.field.contact_message.question_form.field_name1
+    - field.field.contact_message.question_form.field_variant
+id: contact_message.question_form.default
+targetEntityType: contact_message
+bundle: question_form
+mode: default
+content:
+  field_mail:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_name1:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_variant:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+hidden:
+  copy: true
+  mail: true
+  message: true
+  name: true
+  preview: true
+  subject: true

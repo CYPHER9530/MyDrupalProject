@@ -1,0 +1,29 @@
+uuid: fc282d8f-50f5-459c-9a7c-cf8020a3e4eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.instructions
+    - field.storage.block_content.field_moderator
+    - taxonomy.vocabulary.job_role
+id: block_content.instructions.field_moderator
+field_name: field_moderator
+entity_type: block_content
+bundle: instructions
+label: Moderator
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      job_role: job_role
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

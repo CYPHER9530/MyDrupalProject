@@ -1,0 +1,91 @@
+variables:
+  colors:
+    primaryColor1: 3A3A3A
+    primaryColor2: 5A5A5A
+    primaryColor3: CCCCCC
+    primaryColor4: 1A1A1A
+    primaryColor5: 9A9A9A
+    mainMenuBgColor: 9A9A9A
+    mainMenuFontColor: 1A1A1A
+    mainMenuBorderColor: 1A1A1A
+    buttonBgColor: 9A9A9A
+    buttonFontColor: 1A1A1A
+    buttonBorderColor: 1A1A1A
+  fonts:
+    defaultHeaderFont: georgia
+    defaultBodyFont: helvetica
+styles:
+  omega_sub/omega_sub: 1
+  omega/omega: 1
+  omega/omega_html_elements: 1
+  omega/omega_branding: 1
+  omega/omega_breadcrumbs: 1
+  omega/omega_main_menus: 1
+  omega/omega_messages: 1
+  omega/omega_pagers: 1
+  omega/omega_tabs: 1
+  omega/omega_taxonomy_terms: 1
+  omega/omega_forms: 1
+block_demo_mode: 0
+screen_demo_indicator: 0
+enable_omegags_layout: 1
+omega_toggle_intro: 1
+enable_advanced_layout_controls: 1
+enable_backups: 0
+force_subtheme_creation: 0
+enable_omega_badge: 1
+block_demo_excluded_regions:
+  - page_top
+  - page_bottom
+layouts: {  }
+features:
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+logo:
+  use_default: false
+  path: 'public://thundercats-emblem-vector-logo-200x200.png'
+favicon:
+  use_default: false
+  path: 'public://favicon.ico'
+  mimetype: image/vnd.microsoft.icon
+edit_this_layout: primary
+default_layout: primary
+home_layout: front
+node_type_article_layout: primary
+node_type_page_layout: primary
+taxonomy_category_layout: primary
+taxonomy_tags_layout: primary
+breakpoint_group_primary: omega_sub.default
+breakpoint_group_front: omega_sub.default
+_core:
+  default_config_hash: 74uiMn-Tlmlot8zIsHaRYr7iRwp8m1RVfL36N78j3wA
+compile_scss: 1
+show_compile_warning: 1
+force_scss_compile: 0
+layout-config:
+  non_omegags_info: ''
+node_type_blog_layout: primary
+node_type_event_layout: primary
+node_type_location_layout: primary
+node_type_webform_layout: primary
+taxonomy_categories_layout: primary
+taxonomy_job_role_layout: primary
+taxonomy_widget_layout: primary
+views_view_articles_page_1_layout: primary
+views_view_block_content_page_1_layout: primary
+views_view_blogs_page_1_layout: primary
+views_view_blogs_list_page_1_layout: primary
+views_view_comment_page_published_layout: primary
+views_view_comment_page_unapproved_layout: primary
+views_view_contact_messages_page_1_layout: primary
+views_view_content_page_1_layout: primary
+views_view_duplicate_of_blogs_page_1_layout: primary
+views_view_files_page_1_layout: primary
+views_view_files_page_2_layout: primary
+views_view_flag_bookmark_page_1_layout: primary
+views_view_frontpage_page_1_layout: primary
+views_view_taxonomy_term_page_1_layout: primary
+views_view_user_admin_people_page_1_layout: primary
+views_view_watchdog_page_layout: primary

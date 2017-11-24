@@ -1,0 +1,12 @@
+uuid: f8b3eff5-6e73-42c8-954d-cacb556ac444
+langcode: en
+status: true
+dependencies: {  }
+id: feedback1
+label: Feedback
+recipients:
+  - angelexterminatus@outlook.com
+reply: ''
+weight: 0
+message: 'Leave us a feedback!'
+redirect: /node/1

@@ -1,0 +1,21 @@
+uuid: 292e8a08-953a-4e7d-9378-8de0608bf47e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.location
+    - field.storage.block_content.field_location
+  module:
+    - geolocation
+id: block_content.location.field_location
+field_name: field_location
+entity_type: block_content
+bundle: location
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

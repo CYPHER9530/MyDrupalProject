@@ -1,0 +1,20 @@
+uuid: e5dc1304-e3a5-4fc1-aa71-480ae6c65d6c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - omega
+_core:
+  default_config_hash: MdvR0HlItLgh15R7zev_c80WWSqs__CO_bkqMD10ZXg
+id: omega_local_actions
+theme: omega
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

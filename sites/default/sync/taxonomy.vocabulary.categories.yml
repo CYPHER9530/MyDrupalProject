@@ -1,0 +1,9 @@
+uuid: fc6b3caf-e6fa-42cc-b5af-8791854bbe08
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: ''
+hierarchy: 0
+weight: 0

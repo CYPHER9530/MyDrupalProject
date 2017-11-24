@@ -1,0 +1,23 @@
+uuid: 0644525e-ab83-44c8-abcb-659e17daa82c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_external_links
+    - node.type.blog
+  module:
+    - link
+id: node.blog.field_related_external_links
+field_name: field_related_external_links
+entity_type: node
+bundle: blog
+label: 'Related external links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

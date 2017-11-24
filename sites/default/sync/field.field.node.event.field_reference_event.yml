@@ -1,0 +1,31 @@
+uuid: eece5a6b-900f-4c90-8247-109e4e8bdcec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reference_event
+    - node.type.event
+    - paragraphs.paragraphs_type.event_paragraph
+  module:
+    - entity_reference_revisions
+id: node.event.field_reference_event
+field_name: field_reference_event
+entity_type: node
+bundle: event
+label: Reference_Event
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      event_paragraph: event_paragraph
+    target_bundles_drag_drop:
+      event_paragraph:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

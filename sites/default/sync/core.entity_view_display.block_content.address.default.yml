@@ -1,0 +1,31 @@
+uuid: 8febc564-85e1-4e7a-acfb-3a3eb4af8313
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.address
+    - field.field.block_content.address.body
+    - field.field.block_content.address.field_address
+  module:
+    - address
+    - text
+id: block_content.address.default
+targetEntityType: block_content
+bundle: address
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_address:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_plain
+    region: content
+hidden: {  }

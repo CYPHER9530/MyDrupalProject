@@ -1,0 +1,21 @@
+uuid: fb44bce9-f485-4f82-a926-842c17ff620e
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.question_form
+    - field.storage.contact_message.field_variant
+  module:
+    - options
+id: contact_message.question_form.field_variant
+field_name: field_variant
+entity_type: contact_message
+bundle: question_form
+label: Variant
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

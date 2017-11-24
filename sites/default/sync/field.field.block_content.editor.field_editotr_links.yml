@@ -1,0 +1,21 @@
+uuid: 91948458-d884-49b0-9908-f1922cc1be78
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.editor
+    - field.storage.block_content.field_editotr_links
+  module:
+    - options
+id: block_content.editor.field_editotr_links
+field_name: field_editotr_links
+entity_type: block_content
+bundle: editor
+label: 'Editotr Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

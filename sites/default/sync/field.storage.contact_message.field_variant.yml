@@ -1,0 +1,30 @@
+uuid: 7daac46a-cfde-4fb1-840d-d321647e62ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_variant
+field_name: field_variant
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: First
+      label: First
+    -
+      value: Second
+      label: Second
+    -
+      value: Third
+      label: Third
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

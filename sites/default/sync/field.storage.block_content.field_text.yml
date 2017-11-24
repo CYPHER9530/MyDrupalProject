@@ -1,0 +1,33 @@
+uuid: 57d0b101-692f-43e4-85ed-fed2ba486064
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_text
+field_name: field_text
+entity_type: block_content
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: !!float 0
+      label: Drupal
+    -
+      value: !!float 1
+      label: Changed
+    -
+      value: !!float 2
+      label: My
+    -
+      value: !!float 3
+      label: Life
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

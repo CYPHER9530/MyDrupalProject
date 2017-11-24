@@ -1,0 +1,30 @@
+uuid: 5afe08ef-fa3d-42fe-b657-470c37906087
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - file
+    - image
+id: block_content.field_image
+field_name: field_image
+entity_type: block_content
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: fffe651e-7b80-4029-b90f-9e3f129c7577
+    alt: INTERNETDEVELS
+    title: DRUPAL8
+    width: 646
+    height: 220
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: f98ffbe2-534d-440f-901a-c4cdfcc1165a
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.question_form
+  module:
+    - contact_block
+  theme:
+    - stark
+id: stark_contactblock_2
+theme: stark
+region: sidebar_first
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: visible
+  contact_form: question_form
+visibility: {  }

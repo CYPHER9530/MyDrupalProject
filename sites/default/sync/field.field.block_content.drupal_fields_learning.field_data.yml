@@ -1,0 +1,24 @@
+uuid: 72d753f9-e07d-46f3-9b96-dbeba83b44af
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_data
+  module:
+    - datetime
+id: block_content.drupal_fields_learning.field_data
+field_name: field_data
+entity_type: block_content
+bundle: drupal_fields_learning
+label: Data
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

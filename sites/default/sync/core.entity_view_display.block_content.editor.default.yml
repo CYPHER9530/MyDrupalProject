@@ -1,0 +1,31 @@
+uuid: 09503365-e5bf-49ad-bbd5-40f20fe24503
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.editor
+    - field.field.block_content.editor.body
+    - field.field.block_content.editor.field_editotr_links
+  module:
+    - options
+    - text
+id: block_content.editor.default
+targetEntityType: block_content
+bundle: editor
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_editotr_links:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }

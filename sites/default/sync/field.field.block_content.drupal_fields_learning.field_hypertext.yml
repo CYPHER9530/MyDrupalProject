@@ -1,0 +1,28 @@
+uuid: e2f6da13-4c6d-4c36-815f-5d3942b723f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_hypertext
+  module:
+    - link
+id: block_content.drupal_fields_learning.field_hypertext
+field_name: field_hypertext
+entity_type: block_content
+bundle: drupal_fields_learning
+label: HyperTExt
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'http://google..com'
+    title: GooGle
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

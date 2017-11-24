@@ -1,0 +1,21 @@
+uuid: 42ff77ed-f235-4ae7-a502-a73e862312c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.instructions
+    - field.storage.block_content.field_instructions
+id: block_content.instructions.field_instructions
+field_name: field_instructions
+entity_type: block_content
+bundle: instructions
+label: Instructions
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "KJJjJI!!!jdfvpdjsfgj\\]!!!\r\nd.sflkalsk'!"
+default_value_callback: ''
+settings: {  }
+field_type: string_long

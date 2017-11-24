@@ -1,0 +1,14 @@
+uuid: cbfb3af2-59b4-40f1-9cd5-2368d55fb9e6
+langcode: en
+status: true
+dependencies: {  }
+name: mystyle
+label: MyStyle
+effects:
+  bd545c0b-15ba-4c7b-ab4c-20a0357c0c6c:
+    uuid: bd545c0b-15ba-4c7b-ab4c-20a0357c0c6c
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50

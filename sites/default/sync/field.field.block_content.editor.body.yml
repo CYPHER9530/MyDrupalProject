@@ -1,0 +1,22 @@
+uuid: ad48fff2-a305-4103-b4aa-fc440ec35cdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.editor
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.editor.body
+field_name: body
+entity_type: block_content
+bundle: editor
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

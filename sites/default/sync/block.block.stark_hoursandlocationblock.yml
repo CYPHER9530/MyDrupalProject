@@ -1,0 +1,25 @@
+uuid: 279c7dc7-c4f0-4944-9418-b1117b1ed231
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:089a7aa9-fea3-4900-a051-979a11f759d9'
+  module:
+    - block_content
+  theme:
+    - stark
+id: stark_hoursandlocationblock
+theme: stark
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:089a7aa9-fea3-4900-a051-979a11f759d9'
+settings:
+  id: 'block_content:089a7aa9-fea3-4900-a051-979a11f759d9'
+  label: 'Hours and location block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

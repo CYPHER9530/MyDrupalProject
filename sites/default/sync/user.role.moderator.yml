@@ -1,0 +1,27 @@
+uuid: 310c9431-232f-4183-8047-25395a270db3
+langcode: en
+status: true
+dependencies: {  }
+id: moderator
+label: Moderator
+weight: 4
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'administer users'
+  - 'cancel account'
+  - 'change own username'
+  - 'create article content'
+  - 'delete any article content'
+  - 'delete any blog content'
+  - 'delete any page content'
+  - 'delete own article content'
+  - 'edit any article content'
+  - 'edit any blog content'
+  - 'edit any page content'
+  - 'edit terms in categories'
+  - 'edit terms in tags'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view blog revisions'
+  - 'view page revisions'

@@ -1,0 +1,12 @@
+uuid: 92a35893-af39-4b93-98e2-8384a00cb1b4
+langcode: en
+status: true
+dependencies: {  }
+id: question_form
+label: 'Question Form'
+recipients:
+  - ustasalexus9530@gmail.com
+reply: ''
+weight: 0
+message: 'Thank you!'
+redirect: /blogs

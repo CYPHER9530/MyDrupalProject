@@ -1,0 +1,24 @@
+uuid: f408b30a-7a99-4ad3-8ead-bdcac5ed97e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_date_time
+  module:
+    - datetime
+id: block_content.drupal_fields_learning.field_date_time
+field_name: field_date_time
+entity_type: block_content
+bundle: drupal_fields_learning
+label: 'Date&Time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,31 @@
+uuid: e3ae8dee-f233-4064-9373-1171b18979e7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:10d49354-74ac-4acc-b227-f00142b7c6d5'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik_sub
+id: bartik_sub_madebycypher
+theme: bartik_sub
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:10d49354-74ac-4acc-b227-f00142b7c6d5'
+settings:
+  id: 'block_content:10d49354-74ac-4acc-b227-f00142b7c6d5'
+  label: 'Made by CYPHER'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,28 @@
+uuid: fd041544-3852-4dfa-8f20-ab2f63296459
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_event_place
+    - paragraphs.paragraphs_type.event_paragraph
+  module:
+    - geolocation
+id: paragraph.event_paragraph.field_event_place
+field_name: field_event_place
+entity_type: paragraph
+bundle: event_paragraph
+label: 'Event Place'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    lat: '889'
+    lng: '611'
+    lat_sin: null
+    lat_cos: null
+    lng_rad: null
+    data: null
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

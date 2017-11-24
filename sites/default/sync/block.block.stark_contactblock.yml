@@ -1,0 +1,23 @@
+uuid: c323a261-7cc7-4e3c-949f-7e15003f583e
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback1
+  module:
+    - contact_block
+  theme:
+    - stark
+id: stark_contactblock
+theme: stark
+region: sidebar_second
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: visible
+  contact_form: feedback1
+visibility: {  }

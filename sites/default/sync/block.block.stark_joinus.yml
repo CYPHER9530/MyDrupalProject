@@ -1,0 +1,25 @@
+uuid: 48046d07-3ee9-447c-95be-ea16aa706dc3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:social:d57c29f3-df32-4efa-9dad-995b34a79b1c'
+  module:
+    - block_content
+  theme:
+    - stark
+id: stark_joinus
+theme: stark
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:d57c29f3-df32-4efa-9dad-995b34a79b1c'
+settings:
+  id: 'block_content:d57c29f3-df32-4efa-9dad-995b34a79b1c'
+  label: 'Join Us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: fe8acd5a-0786-43d4-9c51-bac7d54fc502
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_text
+  module:
+    - options
+id: block_content.drupal_fields_learning.field_text
+field_name: field_text
+entity_type: block_content
+bundle: drupal_fields_learning
+label: Text
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_float

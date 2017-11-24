@@ -1,0 +1,9 @@
+uuid: db307aa3-d174-4e7b-bcfa-f91f23cea0c8
+langcode: en
+status: true
+dependencies: {  }
+name: Widget
+vid: widget
+description: ''
+hierarchy: 0
+weight: 0

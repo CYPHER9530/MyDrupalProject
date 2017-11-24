@@ -1,0 +1,25 @@
+uuid: 84f190cf-2bf7-4a23-97f6-941cc119550d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:social:d57c29f3-df32-4efa-9dad-995b34a79b1c'
+  module:
+    - block_content
+  theme:
+    - bartik_sub
+id: bartik_sub_joinus
+theme: bartik_sub
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:d57c29f3-df32-4efa-9dad-995b34a79b1c'
+settings:
+  id: 'block_content:d57c29f3-df32-4efa-9dad-995b34a79b1c'
+  label: 'Join Us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

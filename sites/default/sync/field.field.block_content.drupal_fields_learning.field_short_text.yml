@@ -1,0 +1,21 @@
+uuid: 2e8dcf9c-470e-4bd0-8e04-2f0f2cff171d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_short_text
+id: block_content.drupal_fields_learning.field_short_text
+field_name: field_short_text
+entity_type: block_content
+bundle: drupal_fields_learning
+label: 'Short Text'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Drupal Change My Life'
+default_value_callback: ''
+settings: {  }
+field_type: string

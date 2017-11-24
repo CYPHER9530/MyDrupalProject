@@ -1,0 +1,33 @@
+uuid: 63fae2c4-ebee-4bff-b2f3-de345a1565c7
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:location:503019d5-8212-4f3f-9040-1be4aef4f995'
+  module:
+    - block_content
+    - user
+  theme:
+    - bartik
+id: ourgeolocation
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:503019d5-8212-4f3f-9040-1be4aef4f995'
+settings:
+  id: 'block_content:503019d5-8212-4f3f-9040-1be4aef4f995'
+  label: 'Our Geolocation'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

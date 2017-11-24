@@ -1,0 +1,38 @@
+uuid: df3d305d-7cae-4fab-acce-1ab07a9c16df
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_image
+  module:
+    - image
+id: block_content.drupal_fields_learning.field_image
+field_name: field_image
+entity_type: block_content
+bundle: drupal_fields_learning
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 1280x768
+  min_resolution: 640x320
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 89adf90f-8f2d-4e46-8f8a-84fb23f0bbed
+    alt: ERROR
+    title: 'FILES NOT FOUND'
+    width: 566
+    height: 330
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

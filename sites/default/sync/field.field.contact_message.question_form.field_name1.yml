@@ -1,0 +1,19 @@
+uuid: 53da446a-2fb8-47d0-8195-69d0affe048e
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.question_form
+    - field.storage.contact_message.field_name1
+id: contact_message.question_form.field_name1
+field_name: field_name1
+entity_type: contact_message
+bundle: question_form
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
